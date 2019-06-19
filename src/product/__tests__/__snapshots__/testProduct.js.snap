@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test the product page test component matches snapshot 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="breadcrumb-container"
+  >
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      HOME
+       / 
+    </a>
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      PLATES
+       / 
+    </a>
+    <span
+      className="breadcrumb-prod-id"
+    >
+      MASHIKO-YAKI SAUCER
+    </span>
+  </div>
+  <div
+    className="row prod-wrapper"
+  >
+    <img
+      alt="mashiko-yaki-saucer"
+      className="img-responsive prod-img"
+      src="/media/mashiko-yaki-saucer.jpg"
+    />
+    <div
+      className="prod-details-wrap"
+    >
+      <p
+        className="t-brand"
+      >
+        Kiriko
+      </p>
+      <h1
+        className="t-name"
+      >
+        Mashiko-Yaki Saucer
+      </h1>
+      <p
+        className="t-price"
+      >
+        $10.00
+      </p>
+      <p
+        className="t-prod-details"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at purus pulvinar, placerat turpis ac, interdum metus. In eget massa sed enim hendrerit auctor a eget.
+      </p>
+      <hr />
+      <div
+        className="row justify-center align-center"
+      >
+        <div>
+          <input
+            className="counter-field"
+            readOnly={true}
+            value={1}
+          />
+          <div
+            className="counter-control"
+          >
+            <button
+              onClick={[Function]}
+            >
+              +
+            </button>
+            <button
+              className="btn-dec"
+              onClick={[Function]}
+            >
+              -
+            </button>
+          </div>
+        </div>
+        <button
+          className="btn btn-primary add-cart"
+          onClick={[Function]}
+        >
+          ADD TO CART
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

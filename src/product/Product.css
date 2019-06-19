@@ -1,0 +1,50 @@
+.breadcrumb-container {
+    margin-top: 2rem;
+}
+
+.breadcrumb-container * {
+    font-size: .875rem;
+    text-decoration: none;
+    color: black;
+}
+
+.breadcrumb-prod-id {
+    color: grey;
+}
+
+.prod-wrapper {
+    margin-top: 4rem;
+}
+
+.prod-img {
+    flex: 1 0 55%;
+    height: 100%;
+}
+
+.prod-details-wrap {
+    flex: 1 0 30%;
+    font-family: auto;
+    margin: 0 7.5%;
+}
+
+.t-name {
+    font-size: 2.5rem;
+    margin: .25rem 0;
+    font-weight: normal;
+}
+
+.t-price {
+    font-family: cursive;
+    font-size: 1.125rem;
+}
+
+.t-prod-details {
+    color: grey;
+    font-size: 0.875rem;
+}
+
+.prod-wrapper .add-cart {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    margin-left: 0.5rem;
+}

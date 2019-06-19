@@ -1,0 +1,172 @@
+/* Global Element Styles ------------------------------------------------------------------------------*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+hr {
+  margin: 1rem 0;
+}
+
+img.img-responsive {
+  width: 100%;
+  max-width: 100%;
+}
+
+.btn {
+  display: block;
+  padding: 1rem 3rem;
+  font-size: 0.75rem; 
+  color: white;
+  border-width: 0;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: black;
+}
+
+.btn-secondary {
+  background-color: grey;
+}
+
+.btn-tertiary {
+  background-color: whote;
+  color: black;
+  border: 2px solid black;
+}
+
+.caret-link {
+  cursor: pointer;
+}
+
+.caret-link::after {
+  content: "";
+  display: inline-block;
+  margin-left: 0.2rem;
+  vertical-align: middle;
+  border-left: 0.2rem solid transparent;
+  border-right: 0.2rem solid transparent;
+  border-top: 0.2rem solid black;
+}
+
+/* Grid Styles ------------------------------------------------------------------------------ */
+
+.container {
+  max-width: 75rem;
+  margin: 0 auto;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  justify-content: space-between;
+}
+
+.col-1 {
+  flex: 1 0 8.33%;
+}
+
+.col-2 {
+  flex: 1 0 16.66%;
+}
+
+.col-4 {
+  flex: 1 0 30%;
+  margin-right: 3.33%;
+}
+
+.col-6 {
+  flex: 1 0 50%;
+}
+
+.col-8 {
+  flex: 1 0 66.66%;
+}
+
+.col-4:nth-of-type(3n+3) {
+  margin-right: 0;
+}
+
+/* Alignment Styles ------------------------------------------------------------------------------*/
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+/* Typography and Theme ------------------------------------------------------------------------------*/
+
+.t-price, .t-brand {
+  color: gray;
+}
+
+.t-brand {
+  font-size: .75rem;
+  font-weight: 500;
+}
+
+.t-font-xs {
+  font-size: .25rem;
+}
+
+.t-font-s {
+  font-size: .5rem;
+}
+
+.t-font-m {
+  font-size: .75rem;
+}
+
+.t-cancel {
+  float: right;
+  cursor: pointer;
+  color: gray;
+  font-weight: bold;
+}
+
+.t-border-grey {
+  border-color: grey;
+}
+
+.t-border-light-grey {
+  border-color: lightgrey;
+}
+
+.t-color-black {
+  color: black;
+}
+
+.t-color-white {
+  color: white;
+}
+
+.t-color-grey {
+  color: grey;
+}
+
+.t-color-lightgrey {
+  color: lightgrey;
+}

@@ -1,0 +1,23 @@
+.counter-field, .counter-control {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.counter-field {
+    width: .5rem;
+    padding: 1.25rem; 
+    margin-right: .25rem;
+}
+
+.counter-control button {
+    background-color: grey;
+    padding: .3rem .6rem;
+    display: block;
+    border: none;
+    margin-bottom: .25rem;
+}
+
+.counter-control .btn-dec {
+    padding: .4rem .65rem;
+    margin-bottom: 0;
+}

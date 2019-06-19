@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test connected cart flydown component cart flydown component rendered snapshot 1`] = `
+<div
+  className="cart-flydown"
+>
+  <div
+    className="row cart-prod-tile"
+  >
+    <div
+      className="col-4 "
+    >
+      <img
+        alt="Mashiko-Yaki Indigo Small Plate"
+        className="img-responsive"
+        src="/media/mashiko-yaki-indigo-small-plate.jpg"
+      />
+    </div>
+    <div
+      className="col-8 text-left t-font-m"
+    >
+      <span
+        className="t-cancel"
+        onClick={[Function]}
+      >
+        ✕
+      </span>
+      <p>
+        Mashiko-Yaki Indigo Small Plate
+      </p>
+      <p
+        className="t-font-m"
+      >
+        x
+        2
+      </p>
+      <p
+        className="t-brand"
+      >
+        Kiriko
+      </p>
+      <p>
+        $
+        20.00
+      </p>
+    </div>
+  </div>
+  <div
+    className="row cart-prod-tile"
+  >
+    <div
+      className="col-4 "
+    >
+      <img
+        alt="Mashiko-Yaki Saucer"
+        className="img-responsive"
+        src="/media/mashiko-yaki-saucer.jpg"
+      />
+    </div>
+    <div
+      className="col-8 text-left t-font-m"
+    >
+      <span
+        className="t-cancel"
+        onClick={[Function]}
+      >
+        ✕
+      </span>
+      <p>
+        Mashiko-Yaki Saucer
+      </p>
+      <p
+        className="t-font-m"
+      >
+        x
+        1
+      </p>
+      <p
+        className="t-brand"
+      >
+        Kiriko
+      </p>
+      <p>
+        $
+        10.00
+      </p>
+    </div>
+  </div>
+  <hr
+    className="t-border-light-grey"
+  />
+  <div
+    className="row"
+  >
+    <p>
+      Total
+    </p>
+    <p>
+      $
+      30.00
+    </p>
+  </div>
+  <div
+    className="row"
+  >
+    <a
+      className="btn btn-tertiary"
+      href="/cart"
+      onClick={[Function]}
+    >
+      VIEW CART
+    </a>
+    <button
+      className="btn btn-primary"
+    >
+      CHECKOUT
+    </button>
+  </div>
+</div>
+`;

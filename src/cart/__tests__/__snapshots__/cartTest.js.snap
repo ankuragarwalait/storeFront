@@ -1,0 +1,234 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test connected cart component cart component rendered snapshot 1`] = `
+<div
+  className="Cart"
+>
+  <h1
+    className="cart-heading"
+  >
+    Shopping Cart
+  </h1>
+  <div
+    className="container cart-container"
+  >
+    <div
+      className="row items-header t-color-lightgrey"
+    >
+      <div
+        className="col-6 text-left"
+      >
+        PRODUCT
+      </div>
+      <div
+        className="col-2"
+      >
+        QUANTITY
+      </div>
+      <div
+        className="col-1"
+      >
+        TOTAL
+      </div>
+      <div
+        className="col-1 text-right"
+      >
+        ACTION
+      </div>
+    </div>
+    <hr />
+    <div
+      className="products-list-container"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-6 text-left"
+        >
+          <img
+            alt="mashiko-yaki-indigo-small-plate"
+            className="img-responsive"
+            src="/media/mashiko-yaki-indigo-small-plate.jpg"
+          />
+          <div
+            className="cart-prod-details"
+          >
+            <p
+              className="t-brand"
+            >
+              Kiriko
+            </p>
+            <p>
+              Mashiko-Yaki Indigo Small Plate
+            </p>
+          </div>
+        </div>
+        <div
+          className="col-2"
+        >
+          <div>
+            <input
+              className="counter-field"
+              readOnly={true}
+              value={2}
+            />
+            <div
+              className="counter-control"
+            >
+              <button
+                onClick={[Function]}
+              >
+                +
+              </button>
+              <button
+                className="btn-dec"
+                onClick={[Function]}
+              >
+                -
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          className="col-1 t-price"
+        >
+          $20.00
+        </div>
+        <div
+          className="col-1 text-right"
+        >
+          <span
+            className="t-cancel"
+            onClick={[Function]}
+          >
+            ✕
+          </span>
+        </div>
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="col-6 text-left"
+        >
+          <img
+            alt="mashiko-yaki-saucer"
+            className="img-responsive"
+            src="/media/mashiko-yaki-saucer.jpg"
+          />
+          <div
+            className="cart-prod-details"
+          >
+            <p
+              className="t-brand"
+            >
+              Kiriko
+            </p>
+            <p>
+              Mashiko-Yaki Saucer
+            </p>
+          </div>
+        </div>
+        <div
+          className="col-2"
+        >
+          <div>
+            <input
+              className="counter-field"
+              readOnly={true}
+              value={1}
+            />
+            <div
+              className="counter-control"
+            >
+              <button
+                onClick={[Function]}
+              >
+                +
+              </button>
+              <button
+                className="btn-dec"
+                onClick={[Function]}
+              >
+                -
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          className="col-1 t-price"
+        >
+          $10.00
+        </div>
+        <div
+          className="col-1 text-right"
+        >
+          <span
+            className="t-cancel"
+            onClick={[Function]}
+          >
+            ✕
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row cart-overview"
+    >
+      <div
+        className="col-6"
+      >
+         
+      </div>
+      <div
+        className="col-4 text-left"
+      >
+        <p>
+          CART OVERVIEW
+        </p>
+        <p>
+          SUBTOTAL
+        </p>
+        <p>
+          TOTAL
+        </p>
+      </div>
+      <div
+        className="col-2 text-right"
+      >
+        <p>
+           
+        </p>
+        <p>
+          $30.00
+        </p>
+        <p>
+          $30.00
+        </p>
+      </div>
+    </div>
+    <hr />
+    <div
+      className="row"
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        Continue Shopping
+      </a>
+      <button
+        className="btn btn-primary"
+      >
+        CHECKOUT 
+        <span>
+          (
+          $30.00
+          )
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;

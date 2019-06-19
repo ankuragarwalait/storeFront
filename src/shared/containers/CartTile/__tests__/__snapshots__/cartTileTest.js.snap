@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test connected cart tile component snapshot cart tile rendered snapshot 1`] = `
+<div
+  className="row"
+>
+  <div
+    className="col-6 text-left"
+  >
+    <img
+      alt="mashiko-yaki-indigo-small-plate"
+      className="img-responsive"
+      src="/media/mashiko-yaki-indigo-small-plate.jpg"
+    />
+    <div
+      className="cart-prod-details"
+    >
+      <p
+        className="t-brand"
+      >
+        Kiriko
+      </p>
+      <p>
+        Mashiko-Yaki Indigo Small Plate
+      </p>
+    </div>
+  </div>
+  <div
+    className="col-2"
+  >
+    <div>
+      <input
+        className="counter-field"
+        readOnly={true}
+        value={2}
+      />
+      <div
+        className="counter-control"
+      >
+        <button
+          onClick={[Function]}
+        >
+          +
+        </button>
+        <button
+          className="btn-dec"
+          onClick={[Function]}
+        >
+          -
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="col-1 t-price"
+  >
+    $20.00
+  </div>
+  <div
+    className="col-1 text-right"
+  >
+    <span
+      className="t-cancel"
+      onClick={[Function]}
+    >
+      ✕
+    </span>
+  </div>
+</div>
+`;

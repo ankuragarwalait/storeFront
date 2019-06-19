@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test qty widget snapshots qty widget render snapshot 1`] = `
+<div>
+  <input
+    className="counter-field"
+    readOnly={true}
+    value={1}
+  />
+  <div
+    className="counter-control"
+  >
+    <button
+      onClick={[Function]}
+    >
+      +
+    </button>
+    <button
+      className="btn-dec"
+      onClick={[Function]}
+    >
+      -
+    </button>
+  </div>
+</div>
+`;

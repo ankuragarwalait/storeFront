@@ -1,0 +1,26 @@
+.cart-flydown {
+    padding: 1rem;
+    position: absolute;
+    width: 23rem;
+    right: 1rem;
+    background-color: white;
+    z-index: 100;
+    box-shadow: -.125rem .125rem .25rem lightgrey; 
+}
+
+.cart-prod-tile {
+    margin-bottom: 1rem;
+}
+
+.cart-prod-tile:last-of-type {
+    margin-bottom: 0;
+}
+
+.cart-prod-tile img {
+    max-height: 6rem;
+}
+
+.cart-flydown p{
+    margin-top: 0;
+    margin-bottom: .35rem;
+}

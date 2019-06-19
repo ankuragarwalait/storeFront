@@ -1,0 +1,29 @@
+.hero-overlay {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    opacity: 0.75;
+    max-width: 55rem;
+    border-left: .75rem solid white;
+    border-right: .75rem solid white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay-content {
+    padding: 5rem 2rem;
+    font-family: initial;
+    line-height: 1.5rem;
+}
+
+.overlay-header {
+    display: inline-block;
+    padding-bottom: .5rem;
+    border-bottom: 1px solid white;
+}
+
+.t-desc {
+    font-family: auto;
+}
